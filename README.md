@@ -319,3 +319,154 @@ Customer-Churn-Analysis/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+
+```
+
+# Dataset
+
+The SQLite database contains three source tables:
+
+- `db_customer`
+- `db_subscription`
+- `db_support`
+
+The tables were extracted using SQL and loaded into Pandas for cleaning, transformation, analysis, and visualization.
+
+---
+
+# Tools & Technologies
+
+| Technology | Purpose |
+|---|---|
+| Python | Data analysis and processing |
+| SQLite | Relational database |
+| SQL | Data extraction |
+| Pandas | Data manipulation |
+| NumPy | Numerical operations |
+| Matplotlib | Data visualization |
+| Seaborn | Statistical visualization |
+| Jupyter Notebook | Analysis environment |
+
+---
+
+# Project Files
+
+### `Customer_Churn_Analysis.ipynb`
+
+The main notebook containing the complete analysis, including:
+
+- SQL data extraction
+- Data cleaning
+- Feature engineering
+- Exploratory data analysis
+- Aggregations
+- Pivot tables
+- Correlation analysis
+- Visualizations
+- Churn risk segmentation
+- Business interpretation
+
+### `customer_churn_insights_action_plan.pdf`
+
+A business-facing report containing the major findings, interpretation notes, and action areas.
+
+### `visuals/`
+
+Contains the final charts generated during the analysis.
+
+---
+
+# How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/vraw-33/customer-churn-analysis.git
+cd customer-churn-analysis
+```
+
+### 2. Install the required packages
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Open the notebook
+
+Open:
+
+```text
+notebooks/Customer_Churn_Analysis.ipynb
+```
+
+Run the notebook using a Python/Jupyter environment with the required packages installed.
+
+---
+
+# Limitations
+
+This project uses a small 21-customer dataset, so the findings should be interpreted carefully.
+
+Main limitations include:
+
+- Small overall sample size
+- Small groups for some locations and support categories
+- Observed association does not imply causation
+- Risk segmentation is rule-based rather than machine-learning based
+- Churn percentages are within-group rates
+- Monthly charges tied to churn are not verified historical revenue loss
+
+The results are best treated as exploratory business signals and as a demonstration of an end-to-end analytics workflow.
+
+---
+
+# Future Improvements
+
+Possible next steps include:
+
+- Analyze a larger real-world customer dataset
+- Build a machine-learning churn prediction model
+- Evaluate feature importance
+- Test the statistical significance of churn differences
+- Perform cohort retention analysis
+- Analyze monthly recurring revenue trends
+- Build an interactive Power BI or Tableau dashboard
+- Develop customer-level retention recommendations
+
+---
+
+# Skills Used
+
+- SQL + Python integration
+- SQLite database querying
+- Data cleaning
+- Data transformation
+- Feature engineering
+- Exploratory Data Analysis
+- GroupBy and aggregation
+- Pivot tables
+- Data visualization
+- Customer churn analysis
+- Customer value analysis
+- Rule-based segmentation
+- Business-oriented interpretation
+
+---
+
+# Report
+
+[View the Customer Churn Insights & Action Plan](reports/customer_churn_insights_action_plan.pdf)
+
+---
+
+<div align="center">
+
+### Built as a practical Data Analytics portfolio project
+
+**Vaibhav Rawat**
+
+[GitHub](https://github.com/vraw-33)
+
+</div>
+
+</div> ```
